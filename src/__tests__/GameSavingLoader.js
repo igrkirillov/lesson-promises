@@ -10,8 +10,6 @@ describe('GameSavingLoader module', () => {
         userInfo: { id: 1, name: 'Hitman', level: 10, points: 2000 }
       })
       done();
-    }, (error) => {
-      // ...
     });
   })
 })
